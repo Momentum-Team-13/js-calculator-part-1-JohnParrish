@@ -1,0 +1,60 @@
+
+.cal {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+}
+
+.number {
+    box-sizing: border-box;
+    font-size: 30px;
+    background-color: #7393B3;
+    border-color: white;
+    cursor: pointer;
+    color: #36454F;
+}
+
+.clear {
+    box-sizing: border-box;
+    font-size: 30px;
+    background-color: #7393B3;
+    border-color: white;
+    cursor: pointer;
+    color: #36454F;
+}
+
+#blank {
+    display: flex;
+    align-items: center;
+    grid-column: 2 / -1;
+    word-wrap: break-word;
+    word-break: break-all;
+    padding: 10px;
+    font-size: 30px;
+    border-style: outset;
+    border-color: white;
+    border-width: 2px;
+    background-color: #7393B3;
+}
+
+/* .blank, .beg {
+    color: black;
+}
+
+.blank, .end {
+    color: white;
+} */
+
+/* .ops {
+    box-sizing: border-box;
+    font-size: 30px;
+    border-color: white;
+    cursor: pointer;
+} */
+
+button:hover {
+    color: white
+}
